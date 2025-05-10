@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+
+    body{
+        background: url("../images/criatura-de-dragao-mitico-em-estilo-anime.jpg") no-repeat left center;
+        background-size: cover;
+    }
+
+    main {
+        max-width: 600px;
+        height: 400px;
+    }
+
+    #imagem {
+        width: 30%;
+        float: left;
+        height: 100%;
+    }
+
+    #login {
+        width: 70%;
+        float: right;
+    }
+    
+}
