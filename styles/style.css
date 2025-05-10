@@ -87,7 +87,7 @@ div.campo {
     text-align: center;    
 }
 
-#login input[type="text"] {
+.campo input {
     height: 90%;
     width: calc(100% - 44px);    
     border: 0;
@@ -97,7 +97,7 @@ div.campo {
     transform: translateY(-7px);
 }
 
-#login input[type="text"]:focus-within {
+.campo input:focus-within {
     background-color: rgba(255, 255, 255);
 
 }
